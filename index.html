@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>SHARAFUDEEN</title>
+  </head>
+
+  <body class="w-screen h-screen bg-slate-50 flex justify-center items-center">
+    <div
+      id="main"
+      class="animate bg-white m-5 shadow-lg rounded-lg flex flex-col items-center border"
+    >
+      <img
+        src="image-cropped.jpg"
+        class="h-48 w-full object-top object-cover rounded-lg rounded-b-none mb-5"
+        alt=""
+      />
+
+      <div class="flex justify-between items-center w-full px-5">
+        <img src="logo.png" class="w-16 h-auto" />
+        <div class="flex flex-col items-end justify-center h-full mb-5">
+          <h1 class="font-bold text-2xl">Sharafudeen</h1>
+          <h2 class="text-md text-gray-400">Trainer</h2>
+        </div>
+      </div>
+      <div class="flex flex-col w-full border-t border-1">
+        <a
+          href="https://wa.me/+96550554492"
+          target="_blank"
+          class="flex justify-between gap-20 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <i class="fa-brands fa-whatsapp text-2xl"></i>
+          <span class="text-md font-medium underline">Message on Whatsapp</span>
+        </a>
+        <a
+          href="mailto:sharafudeenmpm@gmail.com"
+          class="flex justify-between gap-20 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <i class="fa-solid fa-envelope text-2xl"></i>
+          <span class="text-md font-medium underline">Send an Email</span>
+        </a>
+        <button
+          id="location-button"
+          href="https://www.google.com/maps/dir//al+tahani+driving+school+kuwait/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3fcf9bf8af8d2b2f:0x19e6177644cd49d8?sa=X&ved=2ahUKEwiI06343rWAAxVbTGwGHYp9BRoQ9Rd6BAhdEAA&ved=2ahUKEwiI06343rWAAxVbTGwGHYp9BRoQ9Rd6BAhgEAQ"
+          target="_blank"
+          class="flex justify-between gap-20 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <i class="fa-solid fa-location-dot text-2xl"></i>
+          <span class="text-md font-medium underline"
+            >Find your Test Location</span
+          >
+        </button>
+        <a
+          href="https://eservices5.moi.gov.kw/testtime.nsf/webtesttime?openform&langid=2"
+          target="_blank"
+          class="flex justify-between gap-20 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <i class="fa-solid fa-calendar text-2xl"></i>
+          <span class="text-md font-medium underline">Book an Appointment</span>
+        </a>
+        <a
+          href="https://instagram.com/sharaf__mhd/"
+          target="_blank"
+          class="flex justify-between gap-20 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <i class="fa-brands fa-square-instagram text-2xl"></i>
+          <span class="text-md font-medium underline"
+            >Follow me on Instagram</span
+          >
+        </a>
+        <a
+          href="https://ttd.moi.gov.kw"
+          target="_blank"
+          class="flex justify-between gap-20 items-center text-xs borde-1 border-b px-5 py-2 pb-5"
+        >
+          <i class="fa-solid fa-floppy-disk text-2xl"></i>
+          <span class="text-md font-medium underline"
+            >Theoretical Driving Test Demo</span
+          >
+        </a>
+      </div>
+    </div>
+
+    <div
+      id="locations"
+      class="animate bg-white m-5 shadow-lg rounded-lg hidden flex-col items-center border"
+    >
+      <div class="flex flex-col w-64">
+        <button
+          id="close-button"
+          class="flex justify-between gap-20 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <i class="fa-solid fa-xmark text-2xl"></i>
+          <span class="text-md font-medium underline">Close</span>
+        </button>
+        <a
+          href="https://maps.app.goo.gl/tnewGrRPwtD1aR299?g_st=iw"
+          class="flex gap-1 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <span class="font-bold text-md">1</span>
+          <span class="text-md font-medium underline">Hawalli</span>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/tnewGrRPwtD1aR299?g_st=iw"
+          class="flex gap-1 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <span class="font-bold text-md">2</span>
+          <span class="text-md font-medium underline">Farwaniya</span>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/tnewGrRPwtD1aR299?g_st=iw"
+          class="flex gap-1 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <span class="font-bold text-md">3</span>
+          <span class="text-md font-medium underline">Mubarak al kabeer</span>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/B9TNr7ZYQPiPRQfq9?g_st=iw"
+          target="_blank"
+          class="flex gap-1 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <span class="font-bold text-md">4</span>
+          <span class="text-md font-medium underline">Ahmadi</span>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/nMtE8LA7AAYgFf3L9?g_st=iw"
+          target="_blank"
+          class="flex gap-1 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <span class="font-bold text-md">5</span>
+          <span class="text-md font-medium underline">Asema</span>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/sWgAMtV67KJxY4iX8?g_st=iw"
+          target="_blank"
+          class="flex gap-1 items-center text-xs borde-1 border-b px-5 py-2"
+        >
+          <span class="font-bold text-md">6</span>
+          <span class="text-md font-medium underline">Jahra</span>
+        </a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
